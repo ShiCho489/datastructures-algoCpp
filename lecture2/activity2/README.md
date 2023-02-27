@@ -114,6 +114,22 @@ Refer to the first [link](#links).
 Refer to this [pdf](./big_o.pdf):
 
 - What is the difference between complexity and performance:
+
+Performance: how much time/memory/disk/...is actually used when a program is run. This depends on the machine, compiler as well as the code.
+
+When we write a program or an algorithm that will be used only once on a small amount of data and then discarded, we focus more on writing the code (program) in the easiest possible way we know, we debug it, test it and then use it in our application and then forget about it. However when we need to write a program or an algorithm that will be used over a longer period of time and will be maintained by many people, we need to focus of factors like – simplicity, clarity and efficiency /performance of the program or algorithm. In this article we will be focusing on the efficiency / performance of an algorithm. How it is measured? What is the complexity of the algorithm and also we will discuss about Big-O Notation, it’s a unit for expressing complexity.
+
+So let’s start with Performance and see how performance is measured.
+
+Performance of a program or an algorithm is measured using various factors – like Time, Space, and Network etc.
+
+    -Time - How much time the program takes to execute?
+    -Space - How much memory or space the program is using while it's executed (also the physical space)
+    -Network - if there are any network related activities the program is doing, which may affect the performance).
+
+Complexity: Complexity is used to measure performance. Or Complexity is a measure of how the Resources (in this case Time) changes as the size of the problem gets larger.
+
+
 - Does complexity affects performance bor is it the other way around?
 - Restate the formal definition of big $O$ in plain English
 
