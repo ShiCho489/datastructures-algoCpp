@@ -18,14 +18,17 @@ Big-O notation signifies the relationship between the input to the algorithm and
 - Compare `Linear`, `Logarithmic`, `Quadratic` and `Constant` complexities.
 # Linear Complexity:- 
 The complexity of an algorithm is said to be linear if the steps required to complete the execution of an algorithm increase or decrease linearly with the number of inputs. Linear complexity is denoted by O(n).
+  ```python
     def linear_algo(items):
      for item in items:
         print(item)
 
 linear_algo([4, 5, 6, 8])
+  ```
 
 The complexity of the linear_algo() function is linear in the above example since the number of iterations of the for-loop will be equal to the size of the input items array. For instance, if there are 4 items in the items list, the for-loop will be executed 4 times.
 Below the code for linear_algo plot where number of inputs on the x -axis and the number of steps on the y-axis.
+```python
 
 steps = []
 def linear(n):
@@ -37,6 +40,7 @@ for i in range(1, 100):
 plt.plot(steps)
 plt.xlabel('Inputs')
 plt.ylabel('Steps')
+```
 
 
 
