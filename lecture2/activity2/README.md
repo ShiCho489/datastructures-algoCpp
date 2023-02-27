@@ -44,7 +44,48 @@ plt.ylabel('Steps')
 
 
 
-# Lograrithmic Complexity:-
+# Lograrithmic Complexity:- O(logn)
+
+Some algorithms achieve logarithmic complexity, such as Binary Search. Binary Search searches for an element in an array, by checking the middle of an array, and pruning the half in which the element isn't. It does this again for the remaining half, and continues the same steps until the element is found. In each step, it halves the number of elements in the array.
+
+When you can make assumptions about the incoming data, you can take steps that reduce the complexity of an algorithm. Logarithmic complexity is desireable, as it achieves good performance even with highly scaled input.
+
+# Quadratic Complexity:- O(n²)
+
+The complexity of an algorithm is said to be quadratic when the steps required to execute an algorithm are a quadratic function of the number of items in the input. Quadratic complexity is denoted as O(n²):
+```python
+
+def quadratic_algo(items):
+    for item in items:
+        for item2 in items:
+            print(item, ' ' ,item2)
+
+quadratic_algo([4, 5, 6, 8])
+```
+
+We have an outer loop that iterates through all the items in the input list and then a nested inner loop, which again iterates through all the items in the input list. The total number of steps performed is n*n, where n is the number of items in the input array.
+
+# Constant Complexity:- O(C)
+
+The complexity of an algorithm is said to be constant if the steps required to complete the execution of an algorithm remain constant, irrespective of the number of inputs. The constant complexity is denoted by O(c) where c can be any constant number.
+
+Let's write a simple algorithm in Python that finds the square of the first item in the list and then prints it on the screen:
+
+
+```python
+def constant_algo(items):
+    result = items[0] * items[0]
+    print(result)
+
+constant_algo([4, 5, 6, 8])
+```
+In the script above, irrespective of the input size, or the number of items in the input list items, the algorithm performs only 2 steps:
+
+    -Finding the square of the first element
+    -Printing the result on the screen.
+
+Hence, the complexity remains constant.
+
 
 ## Task2
 
