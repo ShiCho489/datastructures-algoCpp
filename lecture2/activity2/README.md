@@ -131,6 +131,7 @@ Complexity: Complexity is used to measure performance. Or Complexity is a measur
 
 
 - Does complexity affects performance bor is it the other way around?
+Complexity affects performance but not the other way around. 
 - Restate the formal definition of big $O$ in plain English
 
 ## Links
