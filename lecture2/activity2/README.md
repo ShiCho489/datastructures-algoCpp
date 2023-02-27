@@ -5,7 +5,9 @@
 Refer to the first [link](#links).
 
 - Why is Algorithm Analysis Important?
+Algorithm analysis refers to the analysis of the complexity of different algorithms and finding the most efficient algorithm to solve the problem at hand. It is important to decide to choose an algorithm that is more efficient and runs faster.
 - Explain the Big $O$ notation
+Big-O notation signifies the relationship between the input to the algorithm and the steps required to execute the algorithm. It is denoted by a big "O" followed by an opening and closing parenthesis. Inside the parenthesis, the relationship between the input and the steps taken by the algorithm is presented using "n".
 - Compare `Linear`, `Logarithmic`, `Quadratic` and `Constant` complexities.
 
 ## Task2
