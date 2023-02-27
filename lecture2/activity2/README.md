@@ -19,7 +19,7 @@ Big-O notation signifies the relationship between the input to the algorithm and
 # Linear Complexity:- 
 The complexity of an algorithm is said to be linear if the steps required to complete the execution of an algorithm increase or decrease linearly with the number of inputs. Linear complexity is denoted by O(n).
   ```python
-    def linear_algo(items):
+def linear_algo(items):
      for item in items:
         print(item)
 
