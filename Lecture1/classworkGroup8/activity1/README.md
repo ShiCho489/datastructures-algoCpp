@@ -15,8 +15,8 @@ Discuss the difference between:
   POP in arrays: removes the last element added to the stack.
   Deque in queue will delete the first element added to the stack.
 - LIFO vs FIFO
-    Last in first out : LIFO referes to the operation that the last item added to the stack is accessed first.
-    FIFO: First in first out, referes to the idea that first element added to the stack is accessed first.
+    Last in first out : LIFO refers to the operation that the last item added to the stack is accessed first.
+    FIFO: First in first out, refers to the idea that first element added to the stack is accessed first.
 
 ## Task 2
 
