@@ -49,6 +49,12 @@
 ## Task 5: Individual (at home)
 
 - There are two traditional approaches to representing graphs: The adjacency matrix and the adjacency list. What are the main differences in term of space/time complexity. You can refer to following link:
+
+Adjacency Matrix:-The first way to represent a graph in a computer’s memory is to build an adjacency matrix. Assume our graph consists of n vertices numbered from 1 to n.  An adjacency matrix is a binary matrix of size n \times n. There are two possible values in each cell of the matrix: 0 and 1. Suppose there exists an edge between vertices v_{i} and v_{j}. It means, that the value in the i^{th} row and j^{th} column of such matrix is equal to 1. Importantly, if the graph is undirected then the matrix is symmetric.
+Assuming the graph has {n} vertices, the time complexity to build such a matrix is {O(n^2)}. The space complexity is also {O(n^2)}.
+
+Adjacency List:-The other way to represent a graph in memory is by building the adjacent list. If the graph consists of n vertices, then the list L contains n elements. Each element L_{i} is also a list and contains all the vertices, adjacent to the current vertex v_{i}. By choosing an adjacency list as a way to store the graph in memory, this may save us space.
+If {m} is the number of edges in a graph, then the time complexity of building such a list is {O(m)}. The space complexity is {O(n + m)}. But, in the worst case of a complete graph, which contains {n \choose 2} edges, the time and space complexities reduce to O(n^2).
   https://www.baeldung.com/cs/adjacency-matrix-list-complexity
 
 ## Links
