@@ -2,7 +2,7 @@
 
 ## Task 1
 
-- Refer to te following link. Explain the Dijkstra's Shortest Path Algorithm.
+- Refer to the following link. Explain the Dijkstra's Shortest Path Algorithm.
   https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/
 
 ## Task 2

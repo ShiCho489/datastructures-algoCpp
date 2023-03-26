@@ -18,12 +18,21 @@
 - Discuss how depth-first search works by experimenting with the following link. Try both directed and undirected graphs and write a short summary.
   https://opendsa-server.cs.vt.edu/OpenDSA/AV/Graph/DFSAV.html
 
+  DFS starts with a root node or a start node and then explores the adjacent nodes of the current node by going deeper into the graph or a tree. This means that in DFS the nodes are explored depth-wise until a node with no children is encountered.
+  Once the leaf node is reached, DFS backtracks and starts exploring some more nodes in a similar fashion.
+  In DFS we use a stack data structure for storing the nodes being explored. The edges that lead us to unexplored nodes are called ‘discovery edges’ while the edges leading to already visited nodes are called ‘block edges’.
+  
+
 > You can refer to [link #3](#links) below for more info.
 
 ## Task 3
 
 - Discuss how breadth-first search works by experimenting with the following link. Try both directed and undirected graphs and write a short summary.
   https://opendsa-server.cs.vt.edu/OpenDSA/AV/Graph/BFSAV.html
+
+  In the breadth-first traversal technique, the graph or tree is traversed breadth-wise. This technique uses the queue data structure to store the vertices or nodes and also to determine which vertex/node should be taken up next.
+
+  Breadth-first algorithm starts with the root node and then traverses all the adjacent nodes. Then, it selects the nearest node and explores all the other unvisited nodes. This process is repeated until all the nodes in the graph are explored.
 
 > You can refer to [link #4](#links) below for more info.
 
