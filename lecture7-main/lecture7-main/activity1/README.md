@@ -5,6 +5,12 @@
 - Answer at least 5 questions from the following link. Make sure you write the question as well as the answer.
   https://opendsa-server.cs.vt.edu/OpenDSA/Exercises/Graph/GraphIntroSumm.html
 
+(1) A free tree is: a connected graph with no cycles.
+(2) A weighted graph must have edge weights and be directed: False.
+(3) Two vertices of a graph are ADJACENT if there is an edge joining them. True
+(4) A complete graph is a clique of size: |V|
+(5) Given a subset S of the vertices in a graph, when all vertices in S connect to all other vertices in S, this is called a: clique.
+
 > You can refer to [link #2](#links) below for more info.
 
 ## Task 2
