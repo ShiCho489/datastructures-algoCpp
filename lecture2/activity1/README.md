@@ -27,7 +27,7 @@
 - [] At most, 32.
 - [] At most, 1.
 - [] At most, 6.
-- [] At most, 16.
+- [correct] At most, 16.
 
 ## Task 5/5: Individual, at home
 
