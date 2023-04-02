@@ -92,7 +92,18 @@ Hence, the complexity remains constant.
 Refer to the first [link](#links).
 
 - Write a simple algorithm in C++ that finds the square of the first item in a list and then prints it on the screen.
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int list[5] ={1,2,3,4,5};
+    for(int item:list){
+        cout<<item<< " \n";
+    }
+}
 - What is the complexity of the algorithm?
+O(n)
 
 ## Task 3
 
