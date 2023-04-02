@@ -40,10 +40,14 @@ Discuss in group whether the following statements are True or false.
     - No
 - Deletion of an element from an array-based set of length N, takes N steps in worst-case scenario.
 
+The time complexity of set_name.find( key ) is O( log N ). As the elements are stored in a sorted manner by default.
+
 ## Taks 3
 
 - Array-based sets are arrays with one additional constraint of barring duplicates. How does this single Rule affect efficiency?
+It speeds up the traversing of set as there are no duplicates.
 - Should we avoid sets because insertion is slower for sets than regular arrays?
+No, If we use case is to have unique values than set is the correct choice.
 
 ## Reference
 

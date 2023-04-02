@@ -17,7 +17,7 @@
 
 ## Task 4: Individual (at home)
 
-- Refer to te following link. Explain when to use the greedy methods and when to avoid them.
+- Refer to the following link. Explain when to use the greedy methods and when to avoid them.
   https://www.freecodecamp.org/news/when-to-use-greedy-algorithms/
 
 ## Link(s)
