@@ -50,6 +50,9 @@ int main()
 ## Task 2
 
 - Refer to the following link. Your task is to show the behavior for one iteration of the outer for loop of Bubble Sort (Try at least 3 cases).
+We can observe that in each pass, the largest element is sorted, thus after single pass we can pick largest element from the list, after 2 passes 2 largest elements and so on. O(n^2) is the worst case in this case. 
+Bubble sort is stable as it will keep ordering of the same weightage elements.
+Bubble sort can be made adaptive by using flag.
   https://opendsa-server.cs.vt.edu/ODSA/Exercises/Sorting/BubsortPRO.html
 
 ## Task 3
