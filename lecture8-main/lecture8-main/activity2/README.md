@@ -26,7 +26,7 @@ Lists-The list is a container that overcomes this drawback of the array and vect
 - Discuss the different types of iterators present in C++. You can refer to the following link
   https://www.geeksforgeeks.org/introduction-iterators-c/
 - What are the Benefits of Iterators
-
+An iterator is an object (like a pointer) that points to an element inside the container. We can use iterators to move through the contents of the container. They can be visualized as something similar to a pointer pointing to some location and we can access the content at that particular location using them. Iterators play a critical role in connecting algorithm with containers along with the manipulation of data stored inside the containers. The most obvious form of an iterator is a pointer. A pointer can point to elements in an array and can iterate through them using the increment operator (++). But, all iterators do not have similar functionality as that of pointers. Depending upon the functionality of iterators they can be classified into five categories, as shown in the diagram below with the outer one being the most powerful one and consequently the inner one is the least powerful in terms of functionality.
 ## Links
 
 - https://cpp.sh/
